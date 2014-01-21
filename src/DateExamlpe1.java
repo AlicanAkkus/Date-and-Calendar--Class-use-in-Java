@@ -8,10 +8,10 @@ public class DateExamlpe1 {
 	public static void main(final String[] args) {
 		// TODO Auto-generated method stub
 
-		final Date date = new Date();// date sýnýfýnýn default yapýlandýrýcý
-										// ile sistem zamaný "zaman" deðiþkenine
-										// atanýyor
-		System.out.println(date);// ekrana yazdýrma
+		final Date date = new Date();// date  sinifini default yapilandirici
+										// ile sistem zamani "zaman" degiskenine
+										// atanior
+		System.out.println(date);// olusan date nesnesini ekrana yazdima
 
 	}
 
