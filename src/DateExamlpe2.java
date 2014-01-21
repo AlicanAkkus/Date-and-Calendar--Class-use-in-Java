@@ -8,11 +8,12 @@ public class DateExamlpe2 {
 	public static void main(final String[] args) {
 		// TODO Auto-generated method stub
 
-		final Date date = new Date();// date s�n�f�n�n default yap�land�r�c�
-		// ile sistem zaman� "zaman" de�i�kenine
-		// atan�yor
-		System.out.println(date);// ekrana yazd�rma
+		final Date date = new Date();/// date  sinifini default yapilandirici
+                                                                                // ile sistem zamani "zaman" degiskenine
+                                                                                // ataniyor
+		System.out.println(date);// ekrana yazdirma
 
+		//Timestamp , 1 ocak 1970 tarihinden itibaren geçen zamandir . 
 		System.out.println("Timestamp : " + date.getTime());// 1 ocak 1970 den
 									// bu yana gecen
 									// zamanin
