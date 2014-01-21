@@ -11,14 +11,13 @@ public class DateExamlpe4 {
 	 */
 	public static void main(final String[] args) throws ParseException {
 		// TODO Auto-generated method stub
-		final Date simdikiZaman = new Date();// this now time
+		final Date simdikiZaman = new Date();//simdiki zamani aliyoruz..
 		System.out.println(simdikiZaman.toString());
 
 		final DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
-		final Date tarih = df.parse("1984/01/01");// tarih deðiþkenine bir
-													// tarihi parse ettik,eðer
-													// baþlarýýz olursa iþlem
-													// ParseExeption fýrlatýrlýr
+		final Date tarih = df.parse("1984/01/01");// tarih degiskenine bir
+							// tarihi parse ettik,eger islem basarisiz olursa
+							// ParseExeption firlatilir..
 		System.out.println(tarih);
 	}
 
