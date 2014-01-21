@@ -8,16 +8,16 @@ public class DateExamlpe2 {
 	public static void main(final String[] args) {
 		// TODO Auto-generated method stub
 
-		final Date date = new Date();// date sýnýfýnýn default yapýlandýrýcý
-		// ile sistem zamaný "zaman" deðiþkenine
-		// atanýyor
-		System.out.println(date);// ekrana yazdýrma
+		final Date date = new Date();// date sï¿½nï¿½fï¿½nï¿½n default yapï¿½landï¿½rï¿½cï¿½
+		// ile sistem zamanï¿½ "zaman" deï¿½iï¿½kenine
+		// atanï¿½yor
+		System.out.println(date);// ekrana yazdï¿½rma
 
 		System.out.println("Timestamp : " + date.getTime());// 1 ocak 1970 den
-															// bu yana gecen
-															// zamanýn
-															// milisaniye
-															// deðeri
+									// bu yana gecen
+									// zamanin
+									// milisaniye
+									// degeri
 
 	}
 
