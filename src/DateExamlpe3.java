@@ -10,22 +10,20 @@ public class DateExamlpe3 {
 	public static void main(final String[] args) {
 		// TODO Auto-generated method stub
 
-		final Date date = new Date();// date sýnýfýnýn default yapýlandýrýcý
-		// ile sistem zamaný "zaman" deðiþkenine
-		// atanýyor
-		System.out.println(date);// ekrana yazdýrma
+		final Date date = new Date();// date sinifinin defaault yapilailandiricisi
+						//ile sistem zamani "zaman" degiskene atanior
+		System.out.println(date);//olusan date nesnesinin bilgilerini ekrana yazdima
 
 		System.out.println("Timestamp : " + date.getTime());// 1 ocak 1970 den
-															// bu yana gecen
-															// zamanýn
-															// milisaniye
-															// deðeri
-
-		final DateFormat dt = new SimpleDateFormat("yyyy/MM/dd");// zmaný
+									// bu yana gecen
+									// zamanin
+									// milisaniye
+		                                                        //degeri
+		final DateFormat dt = new SimpleDateFormat("yyyy/MM/dd");//DateFormat ile yÄ±l/ay/gÃ¼n formatÄ±nda nesne yaratmak 
 																	// gosterecek
-																	// formatý
+																	// formatï¿½
 																	// ayarlama
-		System.out.println(dt.format(date));// zamaný gosterme
+		System.out.println(dt.format(date));//olusan zaman nesnesini dt formatina gÃ¶re yazdirmak
 
 	}
 
